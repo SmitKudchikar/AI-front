@@ -18,7 +18,7 @@ export interface ResumeResponse {
 })
 export class ResumeService {
 
-  private apiUrl = 'http://localhost:8082/resume';
+  private apiUrl = 'https://smart-resume-backend-jr15.onrender.com/';
 
   constructor(private http: HttpClient) {}
 
